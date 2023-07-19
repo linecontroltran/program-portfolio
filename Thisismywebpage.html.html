@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title id="title">My Reg Form</title>
+<link rel="stylesheet" type="text/css" href=".\styles.css">
+</head>
+
+
+<body>
+<h1>My Reg Form</h1>
+<p id="description">This is my reg form</p>
+
+</div>
+<! -- MP4 -->
+
+<video autoplay controls muted loop src="twitchmp4.mp4" width="300">
+</video>
+
+</div>
+
+
+
+<form id="survey-form" method="post" action='https//tomtrans.regpage.org'> //still working on this
+
+
+
+
+<fieldset>
+	<label for="name">Whats your name? <input id="name-label" name="name"
+type="text" required placeholder="First name and Last name here!"/></label>
+
+	<label for="email">Whats your email? <input id="email-label" name="email"
+type="email" required placeholder="example@gmail.com" /></label>
+
+	<label for="number"> What is your Age? <input id="number-label" name="age" type="number" min="18" max="120" placeholder="18-120" /></label>
+</fieldset>
+
+<fieldset>
+
+	<label for="how-much-exp">How much experience in programming do you have? 
+	<select id="how-much-exp" name="how-much-exp">
+	<option value="">(pick an option)</option>
+	<option value="1">Little Experience</option>
+	<option value="2">Bit More Experience</option>
+	<option value="3">More Experience</option>
+	<option value="4">Lots of experience</option>
+	</select>
+	</label>
+</fieldset>
+
+<fieldset>
+	
+	<legend>Do you like this boring webpage that I made? Be honest!</legend
+
+	<label for="like-dontlike"><input id="like" type="radio" name="like-dontlike" class="inline" /> Like it!</label>
+	<label for="like-dontlike"><input id="dontlike" type="radio" name="like-dontlike" class="inline" /> Dont Like it..</label>
+</fieldset>
+
+<div>
+<fieldset>
+<p>What kind of programming skills do you wish that I had??</p>
+<label for="html"><input id="html" type="checkbox" name="codeskill" value="html" class="inline">HTML</label>
+<label for="css"><input id="css" type="checkbox" name="codeskill" value="css" class="inline">CSS</label>
+<label for="javascript"><input id="javascript" type="checkbox" name="codeskill" value="javascript" class="inline">Javascript</label>
+<label for="java"><input id="java" type="checkbox" name="codeskill" value="java" class="inline">Java</label>
+<label for="kotlin"><input id="kotlin" type="checkbox" name="codeskill" value="kotlin" class="inline">Kotlin</label>
+</div>
+</fieldset>
+
+
+
+<fieldset>
+<label for="bio">Anything you would like to ask me: <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your questions here!"></textarea>
+</label>
+</fieldset>
+
+<input id="submit" type="submit" value="Submit" class="button"/>
+
+</form>
+
+
+</body>
+
+<script src="myscripts.js"></script>
+
+</html>
+

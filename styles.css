@@ -1,0 +1,61 @@
+body {
+width:100%;
+height: 150vh;
+margin: 0;
+background-image: url(./twitch.jpg);
+background-color: transparent;
+font-size: 30px;
+font-family: Luminari, fantasy;
+color: #f5f6f7;
+}
+
+h1, p, button {
+text-align: center;
+color: blue;
+}
+
+label {
+display: block;
+margin: 0.5rem 0;
+}
+
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+
+fieldset{
+border: none;
+padding: 2rem 0;
+border-bottom: 3px solid #3b3b4f;
+}
+
+form {
+width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+padding-bottom: 2em;
+background-color: grey;
+}
+
+video {
+text-align: center;
+display: block;
+margin: 0 auto;
+padding-bottom: 2em;
+
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
